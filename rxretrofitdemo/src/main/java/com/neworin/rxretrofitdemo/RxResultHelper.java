@@ -7,12 +7,6 @@ import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.ObservableTransformer;
 import io.reactivex.functions.Function;
 
-/**
- * Copyright (C), 2011-2017 91账单
- * Author: zhangfubin
- * Email: zhangfubin@91zdan.com
- * Description:
- */
 public class RxResultHelper {
 
     public static <T> ObservableTransformer<BasicResponse<T>, T> handleResult() {

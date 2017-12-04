@@ -4,12 +4,6 @@ import android.content.Context
 import io.reactivex.Observer
 import io.reactivex.disposables.Disposable
 
-/**
- * Copyright (C), 2011-2017 91账单
- * Author: zhangfubin
- * Email: zhangfubin@91zdan.com
- * Description:
- */
 abstract class DefaultObserver<T>(context: Context) : Observer<T> {
 
     private var mProDialog: ProgressDialogUtils? = null
